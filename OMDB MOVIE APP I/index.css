@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:rgb(75, 116, 116);
+}
+#div{
+    height:auto;
+    width: 270px;
+    background-color: rgb(225, 225, 233);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#image{
+    width: 100%;
+    height: 70%;
+}
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    margin: 50px;
+}
+#divfyeI{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#divfortext{
+    padding: 20px;
+}
+#imdb{
+    font-size: 15px;
+    color: gray;
+}
+#name{
+    margin: 0px;
+    color: teal;
+}
+#type{
+    margin: 0px;
+}
+#year{
+    margin: 0px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(23, 37, 52);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#form{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+#movie{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    border: 0px;
+    align-items: center;
+}
+#submit{
+    height: 40px;
+    width: 60px;
+    border: none;
+    background-color: rgb(106, 203, 241);
+    color: white;
+}
+#movie:focus{
+    outline: none;
+}
+#logo{
+    height: 100%;
+}
